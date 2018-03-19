@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+.body {
+    background-color: #ececec;
+}
+
+.header {
+    background-color: #46b19d;
+    border-bottom: 2px solid #308b7a;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+
+.rodape {
+    background-color: #284a5b;
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    float: left;
+}
+
+.logo span {
+    font-weight: 800;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.header .right img {
+    width: 35px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.rodape .logo {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    float: center;
+    width: 100%;
+}
+
+.rodape .slogan {
+    color: #a8a8a8;
+    font-weight: 300;
+    font-size: 14px;
+    float: center;
+    width: 100%;
+}
+
+.rodape .logo span {
+    font-weight: 800;
+}
+
+.rodape .icons {
+    float: center;
+    padding: 5px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.header i {
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.header input {
+    background-color: #ececec;
+    padding: 8px;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 9px;
+}
+
+.content {
+    padding: 25px;
+    padding-top: 100px;
+}
+
+.content2 {
+    padding: 25px;
+    padding-top: 25px;
+}
+
+.content h1,
+.content2 h1 {
+    color: #324c5d;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px
+}
+
+.content .card,
+.content2 .card {
+    background-color: #fff;
+    border: 1px solid #bdbdbd; 
+    border-radius: 4px;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+.content .card .actions,
+.content2 .card .actions {
+    background-color: #dee2e5;
+    padding: 8px;
+}
+
+.content2 .card .actions a2 {
+    color:#778187;
+    font-size: 14px;
+    float: right;
+    right: 38px;
+}
+
+.content .card .actions a,
+.content2 .card .actions a {
+    color:#324c5d;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.content .card .info,
+.content2 .card .info {
+    padding: 12px;
+}
+
+.content .card .info img,
+.content2 .card .info img {
+    width: 80px;
+    border: 2px solid #405868;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.content .card .info h1,
+.content .card .info h2,
+.content .card .info p,
+.content2 .card .info h1,
+.content2 .card .info h2,
+.content2 .card .info p {
+    font-size: 14px;
+    color: #787878;
+    margin: 0;
+}
+
+.content .card .info h2,
+.content2 .card .info h2 {
+    color: #324c5d;
+}
+
+.content .card .info .mark,
+.content2 .card .info .mark {
+    background-color: #e35253;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 10px;
+}
+
+.content .card .info .time,
+.content2 .card .info .time  {
+    color: #324c5d;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    background-color: #46b19d;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    border: 1px solid #308b7a;
+    border-radius: 4px;
+    width: 250px;
+    margin-top: 15px;
+    cursor: pointer;
+}
